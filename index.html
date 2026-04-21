@@ -76,7 +76,7 @@
         <div class="text-2xl font-bold tracking-tighter">
           <span class="text-[#5d7b6f]">HIEU</span>.DEV
         </div>
-        <div class="hidden md:flex space-x-8 items-center text-sm font-medium">
+        <div class="hidden md:flex space-x-8 items-center text-sm">
           <a href="#about" class="hover:text-[#5d7b6f] transition-colors">Giới thiệu</a>
           <a href="#skills" class="hover:text-[#5d7b6f] transition-colors">Kỹ năng</a>
           <a href="#experience" class="hover:text-[#5d7b6f] transition-colors">Kinh nghiệm</a>
@@ -86,11 +86,11 @@
       </div>
     </nav>
 
-    <main class="min-h-screen md:max-h-screen md:overflow-hidden flex flex-col pt-24 pb-8 px-4 md:px-8">
-      <div class="flex-grow grid grid-cols-1 md:grid-cols-12 gap-6 overflow-y-auto md:overflow-hidden">
+    <main class="min-h-screen flex flex-col pt-24 pb-8 px-4 md:px-8">
+      <div class="flex flex-col md:grid md:grid-cols-12 gap-6">
         
         <!-- Left Sidebar: Profile -->
-        <aside class="md:col-span-4 flex flex-col justify-between space-y-8 md:overflow-y-auto pr-2 custom-scrollbar animate-fade-in" id="about">
+        <aside class="w-full md:col-span-4 flex flex-col space-y-8 items-center md:items-start text-center md:text-left">
           <div class="space-y-8">
             <div class="relative group pt-4">
               <div class="absolute -inset-1 bg-[#5d7b6f] rounded-full blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
@@ -406,16 +406,14 @@
             <div>
               <h4 class="text-lg font-bold text-white">Bạn có ý tưởng mới?</h4>
               <p class="text-xs opacity-50">Hãy để tôi giúp bạn biến nó thành hiện thực.</p>
-            </div>
-            <button class="px-8 py-3 bg-[#5d7b6f] text-white font-bold rounded-xl text-sm glow-primary hover:brightness-110 transition-all">
-              <a href="mailto:hieu0828335004@gmail.com?subject=Liên hệ từ Portfolio&body=Chào Hiếu, tôi muốn trao đổi về..."
-   class="px-8 py-3 bg-[#5d7b6f] text-white font-bold rounded-xl text-sm glow-primary hover:brightness-110 transition-all inline-flex items-center gap-2">
+            </div> 
+           
+              <a  href="mailto:hieu0828335004@gmail.com"
+   class="px-6 py-3 bg-[#5d7b6f] text-white font-bold rounded-xl text-sm glow-primary hover:brightness-110 transition-all inline-flex items-center gap-2">
   
   Liên Hệ Ngay
-  <i data-lucide="mail" class="w-4 h-4"></i>
-
 </a>
-            </button>
+            
           </div>
         </section>
       </div>
